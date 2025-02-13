@@ -1,27 +1,28 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+    --line-color: #e5e7eb;
+    overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    overflow: hidden;
+}
+
+.borderBlack {
+    @apply border border-black/10;
+}
+
+.violetTextLink {
+    @apply text-violet-500 hover:text-violet-800 hover:underline transition dark:text-violet-400 dark:hover:text-violet-500;
+}
+
+.violetText {
+    @apply font-normal text-violet-500 dark:text-violet-400;
 }
