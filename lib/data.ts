@@ -2,9 +2,12 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import carsImg from "@/public/cars.png";
+import todoImg from "@/public/todo.png";
+import socialImg from "@/public/social.png";
+import artistlImg from "@/public/artist.png";
+import photosImg from "@/public/photos.png";
+import blogImg from "@/public/blog.png";
 
 export const links = [
   {
@@ -62,25 +65,46 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CarZone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked and self learned as a full-stack Python developer on this startup project for 5 months. The project is for car dealers.",
+    tags: ["Python", "Djanog", "Bootstrap", "PostgreSQL"],
+    imageUrl: carsImg,
   },
   {
-    title: "rmtDev",
+    title: "TodoApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "TodoApp is a beuatifull and responsive web application for storing and monitoring your daily tasks. It has database CRUD opearations.",
+    tags: ["Python", "Djanog", "JavaScript", "SQLite"],
+    imageUrl: todoImg,
   },
   {
-    title: "Word Analytics",
+    title: "SocialEditor",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A single web page for practicing and advanced CSS styling techniques. It has responsive layout and browser optimization.",
+    tags: ["HTML", "CSS", "postcss", "postcss-pxtorem"],
+    imageUrl: socialImg,
+  },
+  {
+    title: "ArtistFinder",
+    description:
+      "Team project and interesting collaboration to push frontend skills of a new developer on the next level.",
+    tags: ["HTML", "CSS", "Collaboration", "Pull Request"],
+    imageUrl: artistlImg,
+  },
+  {
+    title: "BetterPhotos",
+    description:
+      "The main goal was to use preprocessor SaSS and practice grid layout. It also has additional optimization features such as vendor prefixes, postcss-pxtorem and minified css file.",
+    tags: ["HTML", "CSS", "SaSS"],
+    imageUrl: photosImg,
+  },
+  {
+    title: "BlogMastery",
+    description:
+      "Collaborative project for mentoring girl web developer and learning Bootstrap.",
+    tags: ["HTML", "CSS", "SaSS", "Bootstrap", "Vercel"],
+    imageUrl: blogImg,
   },
 ] as const;
 
