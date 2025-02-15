@@ -21,14 +21,13 @@ export default function About() {
       <p className="mb-3 px-4">
         After last 1,5 year of experience in{" "}
         <span className="violetText">Electro industry</span>{" "}
-        and graduated{" "}
+        and more than 7 years in <span className="violetText">Automotive</span>{" "}department,
+        I decided to pursue my <span className="violetText">4 years</span> self-learned programming on the next level. I graduated{" "}
         <span className="font-normal violetTextLink">
           <a href="https://www.itnetwork.cz/" target="_blank" className="">
             ITNewtwork academy
           </a>
-        </span>{" "}
-        in Czech Republic, I decided to pursue my passion for programming. I
-        enrolled in a coding bootcamp and learned{" "}
+        </span>{" "}in Czech Republic by enrolling in a coding bootcamp and learned{" "}
         <span className="violetText">
           full-stack web development
         </span>

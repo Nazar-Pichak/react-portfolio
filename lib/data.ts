@@ -38,28 +38,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Ivano-Frankivsky college autotransportation and building",
+    location: "Ivano-Frankivs, Ukraine",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 years of studying and 1 year later I found a job as a wire tester.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2012 - 2015"
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Wire tester and knitter",
+    location: "Ivano-Frankivs, SE 'Production Association Karpaty'",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked on the wire testing lines for 2 years and 3 months as a tester and quality controller in automotive industry.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2016 - 2018",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Circular owen operator",
+    location: "Czech Republic, Elkamet s.r.o.",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Engineering process of creation fuell tanks and plastic details. One of the world's famous customer is JohnDeer.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018 - 2023",
+  },
+  {
+    title: "Test engineer",
+    location: "Czech Republic, Skodagroup",
+    description:
+      "I worked as test engineer and technicial controller of electrical containers and devices for trolleybuses.",
+    icon: React.createElement(FaReact),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Python Web Developer",
+    location: "Czech Republic, ITNetwork s.r.o.",
+    description:
+      "It is a requalification course accredited by ministry of education youth and sport of Czech Republic.",
+    icon: React.createElement(FaReact),
+    date: "2024 - current",
   },
 ] as const;
 
