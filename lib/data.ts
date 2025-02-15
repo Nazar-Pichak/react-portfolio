@@ -1,6 +1,4 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import carsImg from "@/public/cars.png";
 import todoImg from "@/public/todo.png";
@@ -8,6 +6,10 @@ import socialImg from "@/public/social.png";
 import artistlImg from "@/public/artist.png";
 import photosImg from "@/public/photos.png";
 import blogImg from "@/public/blog.png";
+import { DiPython } from "react-icons/di";
+import { GiWireCoil } from "react-icons/gi";
+import { RiWirelessChargingLine } from "react-icons/ri";
+import { PiTractorFill } from "react-icons/pi";
 
 export const links = [
   {
@@ -50,7 +52,7 @@ export const experiencesData = [
     location: "Ivano-Frankivs, SE 'Production Association Karpaty'",
     description:
       "I worked on the wire testing lines for 2 years and 3 months as a tester and quality controller in automotive industry.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(GiWireCoil),
     date: "2016 - 2018",
   },
   {
@@ -58,7 +60,7 @@ export const experiencesData = [
     location: "Czech Republic, Elkamet s.r.o.",
     description:
       "Engineering process of creation fuell tanks and plastic details. One of the world's famous customer is JohnDeer.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(PiTractorFill),
     date: "2018 - 2023",
   },
   {
@@ -66,7 +68,7 @@ export const experiencesData = [
     location: "Czech Republic, Skodagroup",
     description:
       "I worked as test engineer and technicial controller of electrical containers and devices for trolleybuses.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(RiWirelessChargingLine),
     date: "2023 - 2024",
   },
   {
@@ -74,7 +76,7 @@ export const experiencesData = [
     location: "Czech Republic, ITNetwork s.r.o.",
     description:
       "It is a requalification course accredited by ministry of education youth and sport of Czech Republic.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(DiPython),
     date: "2024 - current",
   },
 ] as const;
