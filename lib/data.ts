@@ -56,7 +56,7 @@ export const experiencesData = [
     date: "2016 - 2018",
   },
   {
-    title: "Circular owen operator",
+    title: "Circular furnace operator",
     location: "Czech Republic, Elkamet s.r.o.",
     description:
       "Engineering process of creation fuell tanks and plastic details. One of the world's famous customer is JohnDeer.",
