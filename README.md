@@ -10,7 +10,7 @@
 ## Description
 This project is a personal portfolio website designed to showcase my skills, projects, and experience. It serves as an online resume and a platform to highlight my work. The main idea of the project was born after creation a [previos one project](https://nazar-pichak.github.io/Pokemons/) which was built with [React](https://react.dev/) to learn [AJAX](https://developer.mozilla.org/en-US/docs/Glossary/AJAX) technique. 
 
-## Core Functionality
+## Core Components
 - **Home Page**: Introduction and brief overview of who I am.
 - **About Me**: Detailed information about my background, education, and interests.
 - **Projects**: Showcase of my projects with descriptions, technologies used, and links to live demos or repositories.
