@@ -5,7 +5,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Nazar-Pichak/react-portfolio)
 ![GitHub issues](https://img.shields.io/github/issues/Nazar-Pichak/react-portfolio)
 
-<img src="">
+<img src="./public/react-svgrepo-com.svg" width=40 height=40><img src="./public/react-svgrepo-com.svg" width=40 height=40><img src="./public/react-svgrepo-com.svg" width=40 height=40><img src="./public/react-svgrepo-com.svg" width=40 height=40><img src="./public/react-svgrepo-com.svg" width=40 height=40><img src="./public/react-svgrepo-com.svg" width=40 height=40><img src="./public/react-svgrepo-com.svg" width=40 height=40><img src="./public/react-svgrepo-com.svg" width=40 height=40>
 
 ## Description
 This project is a personal portfolio website designed to showcase my skills, projects, and experience. It serves as an online resume and a platform to highlight my work. The main idea of the project was born after creation a [previos one project](https://nazar-pichak.github.io/Pokemons/) which was built with [React](https://react.dev/) to learn [AJAX](https://developer.mozilla.org/en-US/docs/Glossary/AJAX) technique. 
