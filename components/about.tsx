@@ -22,12 +22,12 @@ export default function About() {
         After last 1,5 year of experience in{" "}
         <span className="violetText">Electro industry</span>{" "}
         and more than 7 years in <span className="violetText">Automotive</span>{" "}department,
-        I decided to pursue my <span className="violetText">4 years</span> self-learned programming on the next level. I graduated{" "}
+        I decided to pursue my <span className="violetText">3 years</span> self-learned programming on the next level. I am studying at{" "}
         <span className="font-normal violetTextLink">
           <a href="https://www.itnetwork.cz/" target="_blank" className="">
             ITNewtwork academy
           </a>
-        </span>{" "}in Czech Republic by enrolling in a coding bootcamp and learned{" "}
+        </span>{" "}in Czech Republic by enrolling in a coding bootcamp and learning{" "}
         <span className="violetText">
           full-stack web development
         </span>
