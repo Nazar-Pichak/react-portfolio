@@ -48,14 +48,6 @@ export const experiencesData = [
     date: "2012 - 2015"
   },
   {
-    title: "Wire tester and knitter",
-    location: "Ivano-Frankivs, SE 'Production Association Karpaty'",
-    description:
-      "I worked on the wire testing lines for 2 years and 3 months as a tester and quality controller in automotive industry.",
-    icon: React.createElement(GiWireCoil),
-    date: "2016 - 2018",
-  },
-  {
     title: "Circular furnace operator",
     location: "Czech Republic, Elkamet s.r.o.",
     description:
