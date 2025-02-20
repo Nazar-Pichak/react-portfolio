@@ -140,7 +140,7 @@ export const skillsData = [
   "AJAX",
   "Git",
   "SQLite",
-  "GraphQL",
+  "RestAPI",
   "PostgreSQL",
   "Python",
   "Django",
