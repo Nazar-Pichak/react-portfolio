@@ -5,7 +5,7 @@ export default function Footer() {
       <footer className="mb-10 px-4 text-center text-gray-500 dark:text-white">
             <small className="mb-2 text-xs block ">&copy; {new Date().getFullYear()} Nazar Pichak. All rights reserved</small>
             <p className="text-xs">
-                <span className="font-semibold">About this web dite: </span>build with{" "} 
+                <span className="font-semibold">About this web dite: </span>built with{" "} 
                 <a href="https://react.dev/" className="violetTextLink">React</a>{" "}&{" "} 
                 <a href="https://nextjs.org/" className="violetTextLink">Next.js</a> (App Router & Server Action),{" "}
                 <a href="https://www.typescriptlang.org/" className="violetTextLink">TypeScript</a>,{" "} 
