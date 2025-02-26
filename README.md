@@ -27,3 +27,16 @@ This project is a personal portfolio website designed to showcase my skills, pro
 - **Vercel**: Hosting provider.
 
 Feel free to explore the website and reach out if you have any questions or opportunities!
+
+## Usage
+
+```
+git clone https://github.com/Nazar-Pichak/react-portfolio.git
+```
+
+- install libraries and run dev server
+
+```
+npm install
+npm run dev
+```
