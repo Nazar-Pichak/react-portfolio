@@ -33,6 +33,10 @@ Feel free to explore the website and reach out if you have any questions or oppo
 ```
 git clone https://github.com/Nazar-Pichak/react-portfolio.git
 ```
+- configure API
+  
+1. Add RESEND_API_KEY environment variable in .env.local file
+2. In the send-email.ts action file, change the "to" email to your own email
 
 - install libraries and run dev server
 
@@ -40,3 +44,5 @@ git clone https://github.com/Nazar-Pichak/react-portfolio.git
 npm install
 npm run dev
 ```
+
+
