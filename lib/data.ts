@@ -69,7 +69,7 @@ export const experiencesData = [
     description:
       "It is a requalification course accredited by ministry of education youth and sport of Czech Republic.",
     icon: React.createElement(DiPython),
-    date: "2024 - current",
+    date: "2024 - 2025",
   },
 ] as const;
 
